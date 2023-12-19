@@ -19,6 +19,7 @@ local plugins = {
 	{"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"},
 	{ "catppuccin/nvim", name = "catppuccin", priority = 1000 },
 	{'tpope/vim-fugitive'},
+	{'windwp/nvim-autopairs', event = "InsertEnter", opts = {}},
 }
 
 local options = {}

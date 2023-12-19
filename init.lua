@@ -17,7 +17,8 @@ vim.opt.rtp:prepend(lazypath)
 local plugins = {
 	{'nvim-telescope/telescope.nvim', tag = '0.1.5', dependencies = { 'nvim-lua/plenary.nvim' }},
 	{"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"},
-	{"catppuccin/nvim", name = "catppuccin", priority = 1000 },
+	-- {"catppuccin/nvim", name = "catppuccin", priority = 1000},
+	{'patstockwell/vim-monokai-tasty'},
 	{'tpope/vim-fugitive'},
 	{'windwp/nvim-autopairs', event = "InsertEnter", opts = {}},
 	{'VonHeikemen/lsp-zero.nvim', branch = 'v3.x'},
@@ -27,6 +28,7 @@ local plugins = {
 	{'L3MON4D3/LuaSnip'},
 	{'nvim-tree/nvim-tree.lua'},
 	{'nvim-tree/nvim-web-devicons'},
+	{'numToStr/Comment.nvim',opts = {}, lazy = false},
 }
 
 local options = {}

@@ -17,11 +17,17 @@ vim.opt.rtp:prepend(lazypath)
 local plugins = {
 	{'nvim-telescope/telescope.nvim', tag = '0.1.5', dependencies = { 'nvim-lua/plenary.nvim' }},
 	{"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"},
-	{ "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+	{"catppuccin/nvim", name = "catppuccin", priority = 1000 },
 	{'tpope/vim-fugitive'},
 	{'windwp/nvim-autopairs', event = "InsertEnter", opts = {}},
+	{'VonHeikemen/lsp-zero.nvim', branch = 'v3.x'},
+	{'neovim/nvim-lspconfig'},
+	{'hrsh7th/cmp-nvim-lsp'},
+	{'hrsh7th/nvim-cmp'},
+	{'L3MON4D3/LuaSnip'},
 }
 
 local options = {}
 
 require("lazy").setup(plugins, options)
+

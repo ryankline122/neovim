@@ -26,6 +26,7 @@ local plugins = {
 	{'hrsh7th/nvim-cmp'},
 	{'L3MON4D3/LuaSnip'},
 	{'nvim-tree/nvim-tree.lua'},
+	{'nvim-tree/nvim-web-devicons.lua'},
 }
 
 local options = {}

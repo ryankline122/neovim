@@ -1,6 +1,10 @@
+require("mason").setup()
+require("mason-lspconfig").setup()
+
 local cmp = require('cmp')  -- Add this line to import the cmp module
 local cmp_action = require("lsp-zero").cmp_action()
 local lsp = require("lsp-zero")
+local lspconfig = require('lspconfig')
 
 cmp.setup({
 	window = {
@@ -46,7 +50,7 @@ vim.diagnostic.config({
     virtual_text = true
 })
 
-require'lspconfig'.pylsp.setup{
+lspconfig.pylsp.setup{
   settings = {
     pylsp = {
       plugins = {
@@ -57,4 +61,12 @@ require'lspconfig'.pylsp.setup{
     }
   }
 }
+lspconfig.tsserver.setup {}
+lspconfig.clangd.setup {}
+lspconfig.jdtls.setup {}
+lspconfig.lua_ls.setup {}
+
+lspconfig.jsonls.setup {}
+lspconfig.html.setup {}
+lspconfig.cssls.setup {}
 

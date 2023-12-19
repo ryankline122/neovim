@@ -16,6 +16,7 @@ vim.opt.rtp:prepend(lazypath)
 
 local plugins = {
 	{'nvim-telescope/telescope.nvim', tag = '0.1.5', dependencies = { 'nvim-lua/plenary.nvim' }},
+	{'nvim-telescope/telescope-ui-select.nvim'},
 	{"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"},
 	{'patstockwell/vim-monokai-tasty'},
 	{'tpope/vim-fugitive'},
@@ -26,6 +27,7 @@ local plugins = {
 	{'williamboman/mason-lspconfig.nvim'},
 	{'hrsh7th/cmp-nvim-lsp'},
 	{'hrsh7th/nvim-cmp'},
+	{'mfussenegger/nvim-jdtls'},
 	{'L3MON4D3/LuaSnip'},
 	{'nvim-tree/nvim-tree.lua'},
 	{'nvim-tree/nvim-web-devicons'},
@@ -35,4 +37,4 @@ local plugins = {
 local options = {}
 
 require("lazy").setup(plugins, options)
-
+vim.cmd('colorscheme vim-monokai-tasty')

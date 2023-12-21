@@ -68,5 +68,6 @@ lspconfig.lua_ls.setup {}
 
 lspconfig.jsonls.setup {}
 lspconfig.html.setup {}
+lspconfig.angularls.setup {}
 lspconfig.cssls.setup {}
 

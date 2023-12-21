@@ -32,6 +32,7 @@ local plugins = {
 	{'nvim-tree/nvim-tree.lua'},
 	{'nvim-tree/nvim-web-devicons'},
 	{'numToStr/Comment.nvim',opts = {}, lazy = false},
+    { "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} },
 }
 
 local options = {}

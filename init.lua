@@ -33,6 +33,7 @@ local plugins = {
 	{'nvim-tree/nvim-web-devicons'},
 	{'numToStr/Comment.nvim',opts = {}, lazy = false},
     { "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} },
+    {'rebelot/terminal.nvim', config = function() require("terminal").setup() end}
 }
 
 local options = {}

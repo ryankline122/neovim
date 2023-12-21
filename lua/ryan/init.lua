@@ -22,4 +22,3 @@ vim.g.python_indent.closed_paren_align_last_line = false
 vim.g.python_indent.searchpair_timeout = 500
 vim.g.python_indent.disable_parentheses_indenting = 1
 
--- Terminal Settings

@@ -20,6 +20,7 @@ local plugins = {
 	{"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"},
 	{'patstockwell/vim-monokai-tasty'},
 	{'tpope/vim-fugitive'},
+    {'windwp/nvim-ts-autotag'},
 	{'windwp/nvim-autopairs', event = "InsertEnter", opts = {}},
 	{'VonHeikemen/lsp-zero.nvim', branch = 'v3.x'},
 	{'neovim/nvim-lspconfig'},
@@ -33,7 +34,9 @@ local plugins = {
 	{'nvim-tree/nvim-web-devicons'},
 	{'numToStr/Comment.nvim',opts = {}, lazy = false},
     { "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} },
-    {'rebelot/terminal.nvim', config = function() require("terminal").setup() end}
+    {'rebelot/terminal.nvim', config = function() require("terminal").setup() end},
+    {"nvim-lualine/lualine.nvim"},
+    {"lewis6991/gitsigns.nvim"}
 }
 
 local options = {}

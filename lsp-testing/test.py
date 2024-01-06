@@ -1,8 +1,9 @@
 def doSomething(action):
     print(f"I am going to {action}")
 
-def subtract():
-    pass
+
+def subtract(x, y):
+    return x - y
 
 
 def add(x, y):
@@ -11,3 +12,4 @@ def add(x, y):
 
 if __name__ == "__main__":
     doSomething(action="eat")
+    add(1, 2)

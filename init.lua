@@ -28,7 +28,6 @@ local plugins = {
 	{'williamboman/mason-lspconfig.nvim'},
 	{'hrsh7th/cmp-nvim-lsp'},
 	{'hrsh7th/nvim-cmp'},
-	{'mfussenegger/nvim-jdtls'},
 	{'L3MON4D3/LuaSnip'},
 	{'nvim-tree/nvim-tree.lua'},
 	{'nvim-tree/nvim-web-devicons'},
@@ -36,10 +35,11 @@ local plugins = {
     { "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} },
     {'rebelot/terminal.nvim', config = function() require("terminal").setup() end},
     {"nvim-lualine/lualine.nvim"},
-    {"lewis6991/gitsigns.nvim"}
+    {"lewis6991/gitsigns.nvim"},
+    {"justinsgithub/oh-my-monokai.nvim"}
 }
 
 local options = {}
 
 require("lazy").setup(plugins, options)
-vim.cmd('colorscheme vim-monokai-tasty')
+vim.cmd("colorscheme oh-my-monokai")

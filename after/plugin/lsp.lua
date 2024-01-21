@@ -63,7 +63,7 @@ lspconfig.pylsp.setup{
 }
 lspconfig.tsserver.setup {}
 lspconfig.clangd.setup {}
-lspconfig.jdtls.setup {}
+lspconfig.gopls.setup({})
 lspconfig.lua_ls.setup {}
 
 lspconfig.jsonls.setup {}

@@ -36,10 +36,11 @@ local plugins = {
     {'rebelot/terminal.nvim', config = function() require("terminal").setup() end},
     {"nvim-lualine/lualine.nvim"},
     {"lewis6991/gitsigns.nvim"},
+    {"catppuccin/nvim", name = "catppuccin", priority = 1000},
     {"justinsgithub/oh-my-monokai.nvim"}
 }
 
 local options = {}
 
 require("lazy").setup(plugins, options)
-vim.cmd("colorscheme oh-my-monokai")
+vim.cmd("colorscheme catppuccin")

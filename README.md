@@ -20,6 +20,10 @@
 
 ### Windows
 
-1. Use a package manager such as choco to install neovim in Powershell
+1. Use a package manager such as choco to install neovim in Powershell (as Admin)
+    
+    `choco install neovim`
 
-2. Follow the same steps as above, with the config directory located at `C:/Users/Your-Username/AppData/neovim/`
+2. Copy the contents of this repo into `C:/Users/Your-Username/AppData/Local/nvim/`
+
+3. Run `nvim .` and verify configuration loads in properly. You will still need to install any LSPs manaully.

@@ -19,9 +19,11 @@
   "nvim-web-devicons": { "branch": "master", "commit": "140edfcf25093e8b321d13e154cbce89ee868ca0" },
   "oh-my-monokai.nvim": { "branch": "main", "commit": "26bc4844fe7f4cad1c6f9fab43a7fe997a8f8621" },
   "plenary.nvim": { "branch": "master", "commit": "663246936325062427597964d81d30eaa42ab1e4" },
+  "rustaceanvim": { "branch": "master", "commit": "71a59ea0932045b2b2f63c3d0402b4ac4cadd595" },
   "telescope-ui-select.nvim": { "branch": "master", "commit": "6e51d7da30bd139a6950adf2a47fda6df9fa06d2" },
   "telescope.nvim": { "branch": "master", "commit": "d90956833d7c27e73c621a61f20b29fdb7122709" },
   "terminal.nvim": { "branch": "master", "commit": "764b7c137512bcfba2e45cf3e25c08a9f4d3b733" },
   "vim-fugitive": { "branch": "master", "commit": "854a8df0d06b8d3fcb30fa7f2b08c62b553eee3b" },
-  "vim-monokai-tasty": { "branch": "master", "commit": "57c67feac63158a232c43aee2f463a994029b699" }
+  "vim-monokai-tasty": { "branch": "master", "commit": "57c67feac63158a232c43aee2f463a994029b699" },
+  "vim-slint": { "branch": "main", "commit": "9badce3860297562bb5e80ba1666628f9e0ac632" }
 }

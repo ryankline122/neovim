@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "dgSpecHash": "noCwqbPnyxqFmv4yriU8pSQ4P7pG0zEGc9LWYwCEs22Y8yQnbAMZFWevW6MGQjYswxuLD4KSnl27QXEQx7gKpw==",
+  "success": true,
+  "projectFilePath": "/home/ryan/.config/nvim/lsp-testing/dotnet/dotnet.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+}

@@ -37,6 +37,8 @@ local plugins = {
     {"nvim-lualine/lualine.nvim"},
     {"lewis6991/gitsigns.nvim"},
     {"catppuccin/nvim", name = "catppuccin", priority = 1000},
+    {"slint-ui/vim-slint"},
+    {'mrcjkb/rustaceanvim',version = '^4', ft = { 'rust' },},
     {"justinsgithub/oh-my-monokai.nvim"}
 }
 

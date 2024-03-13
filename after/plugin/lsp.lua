@@ -61,13 +61,19 @@ lspconfig.pylsp.setup{
     }
   }
 }
+
 lspconfig.tsserver.setup {}
 lspconfig.clangd.setup {}
-lspconfig.gopls.setup({})
+lspconfig.gopls.setup{}
 lspconfig.lua_ls.setup {}
+lspconfig.als.setup{}
+lspconfig.kotlin_language_server.setup{}
+lspconfig.omnisharp.setup{}
+lspconfig.slint_lsp.setup{}
 
 lspconfig.jsonls.setup {}
 lspconfig.html.setup {}
 lspconfig.angularls.setup {}
 lspconfig.cssls.setup {}
 
+require'lspconfig'.slint_lsp.setup{}

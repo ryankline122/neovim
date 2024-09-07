@@ -7,7 +7,7 @@ def subtract(x, y):
 
 
 def another_function():
-    return "Hello"
+    return "Hello World"
 
 
 def add(x, y):

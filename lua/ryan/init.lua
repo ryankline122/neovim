@@ -13,12 +13,19 @@ vim.o.tabstop = 4
 vim.o.shiftwidth = 4
 vim.o.expandtab = true
 
--- -- Python Indent settings
--- vim.g.python_indent = {}
--- vim.g.python_indent.open_paren = 'shiftwidth() * 2'
--- vim.g.python_indent.nested_paren = 'shiftwidth()'
--- vim.g.python_indent.continue = 'shiftwidth() * 2'
--- vim.g.python_indent.closed_paren_align_last_line = false
--- vim.g.python_indent.searchpair_timeout = 500
--- vim.g.python_indent.disable_parentheses_indenting = 1
---
+
+
+vim.o.clipboard = "unnamedplus"
+
+-- Copying to system clipboard
+-- From current cursor position to EOL (normal mode)
+vim.keymap.set({'n'}, '<C-c>', '"+y$')
+-- Current selection (visual mode)
+vim.keymap.set({'v'}, '<C-c>', '"+y')
+
+-- Cutting to system clipboard
+-- From current cursor position to EOL (normal mode)
+vim.keymap.set({'n'}, '<C-x>', '"+d$')
+-- Current selection (visual mode)
+vim.keymap.set({'v'}, '<C-x>', '"+d')
+

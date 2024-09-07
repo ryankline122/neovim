@@ -16,4 +16,8 @@ vim.api.nvim_set_keymap('n', '<leader>ww', '<C-w>w', { noremap = true, silent = 
 -- Jump to the previous open file
 vim.api.nvim_set_keymap('n', '<leader>wp', ':bprev<CR>', { noremap = true, silent = true })
 
+-- Kinesis specific
+vim.api.nvim_set_keymap('n', '<End>', 'w', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<PageDown>', 'b', { noremap = true, silent = true })
+
 

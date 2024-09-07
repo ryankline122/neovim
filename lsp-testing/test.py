@@ -7,11 +7,17 @@ def subtract(x, y):
 
 
 def another_function():
-    return "Hi"
+    return "Hello"
 
 
 def add(x, y):
     return x + y
+
+
+def multiply(x, y, z):
+    res: int = x * y * z
+
+    return res
 
 
 if __name__ == "__main__":
